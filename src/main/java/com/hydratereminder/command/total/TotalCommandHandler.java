@@ -40,7 +40,7 @@ public class TotalCommandHandler implements CommandHandler {
     /**
      * <p>Return 'break' if number of breaks is 1 and 'breaks' otherwise</p>
      * @param numBreaks number of hydration breaks
-     * @return
+     * @return break/s
      */
     private String getBreakText(final int numBreaks) {
         return numBreaks == 1 ? "break" : "breaks";
